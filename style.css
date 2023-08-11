@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+body {
+   background-color: rgb(205, 205, 205);
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+}
+
+a {
+    color: white;
+}
+
+
+main h6 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    color: white;
+    font-size: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+table , main h2{
+    color: rgb(0, 0, 0);
+}
+
+.paiform{
+    display: flex;
+    justify-content: center;
+    
+}
+
+form{
+    border: 1px solid black;
+    padding: 20px;
+}
+
+label{
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+td {
+    text-align: center;
+}
+
+li{
+    color: rgb(0, 0, 0);
+}
+
+h5{
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    text-align: center;
+}
+
+ol{
+   
+border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+}
+
+.paifunc{
+    display: flex;
+    justify-content: center;
+}
+
+div img{
+    height: 3vh;
+}
