@@ -33,6 +33,8 @@ header h1 {
     text-transform: uppercase;
 }
 
+
+
 ul {
     display: flex;
     gap: 15px;
@@ -81,11 +83,10 @@ footer p {
 
 main {
     background-image: linear-gradient(to right top, #d16ba5, #ad5394, #893d83, #652872, #401660, #350f4f, #2a083e, #20002f, #220020, #1e0015, #150008, #000000);
+    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex: 1;
-    /* height: 82vh; */
+    align-items: center;    
 }
 
 main h4 {
@@ -180,12 +181,7 @@ td {
     color: white;
 }
 
-.tabela{
-    display: flex;
-    justify-content: center;
-    height: 70vh;
-    margin-bottom: 60px;
-}
+
 
 
 .paitabela{
