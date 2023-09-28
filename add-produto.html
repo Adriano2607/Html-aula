@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <header>
-        <img src="img/logo.jpg" alt="">
+    <header role="banner">
+        <img src="img/logo.jpg" alt="logodoSite">
 
 
 
-        <nav>
+        <nav role="navigation">
             <ul>
                 <li>
                     <a href="index.html">Página Inicial</a>
@@ -36,12 +36,12 @@
 
 
 
-    <main>
+    <main role="main">
 
+        <h1>Adicionar Produto</h1>
 
-
-        <div class="paiform">
-            <form action="#">
+        <div class="paiform" role="complementary">
+            <form action="#" role="form">
 
                 <label for="link-foto">Link para foto: </label>
                 <input type="url" id="link-foto" name="link-foto" placeholder="Foto" required>
@@ -52,7 +52,7 @@
 
                 <label for="preco">Preço (em R$): </label>
                 <!-- Adicione o id apropriado e o type para receber números abaixo -->
-                <input type="number" id="preco" name="preço" placeholder="Preço" required> 
+                <input type="number" id="preco" name="preço" placeholder="Preço" required>
 
                 <!-- Preencha as propriedades necessárias para os elementos abaixo -->
                 <label for="qtd">Quantidade disponível: </label>
@@ -67,14 +67,13 @@
 
     </main>
 
-    <footer>
+    <footer role="contentinfo">
         <p>Siga-nos nas redes sociais!</p>
 
         <div class="icones">
-            <img src="https://cdn-icons-png.flaticon.com/512/174/174879.png" />
-            <img src="https://www.facebook.com/images/fb_icon_325x325.png" />
-            <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" />
+            <img src="img/whatsapp.png" alt="whats" />
+            <img src="img/facebook.png" alt="face" />
+            <img src="img/instagram.png" alt="insta" />
         </div>
     </footer>
 </body>

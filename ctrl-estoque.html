@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,94 +8,96 @@
     <link rel="stylesheet" href="style.css">
     <title>Controle de Estoque</title>
 </head>
+
 <body>
-    <header>
+    <header role="banner">
         <img src="img/logo.jpg" alt="">
-   
-           
-    
-<nav>
-    <ul>
-        <li>
-            <a href="index.html">Página Inicial</a>
-        </li>
-        <li>
-            <a href="ctrl-estoque.html">Controle de Estoque</a>
-        </li>
-        <li>
-            <a href="add-produto.html">Adicionar Produto</a>
-        </li>
-        <li>
-            <a href="funcionarios.html">Funcionários</a>
-        </li>
-    </ul>
-</nav>
-    
-</header>  
-    
 
-    
-   <main>
 
-   
-    <table>
-        <tr>
-            <th>Foto</th>
-            <th>Descrição</th>
-            <th>Preço (R$)</th>
-            <th>Quantidade disponível</th>
-        </tr>
 
-        <tr>
-        <td><img src="img/fifa.png" alt="foto fifa" /></td>
-            <td> Jogo </td>
-            <td>R$ 350,00</td>
-            <td> 10 </td>
-        </tr>
+        <nav role="navigation">
+            <ul>
+                <li>
+                    <a href="index.html">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="ctrl-estoque.html">Controle de Estoque</a>
+                </li>
+                <li>
+                    <a href="add-produto.html">Adicionar Produto</a>
+                </li>
+                <li>
+                    <a href="funcionarios.html">Funcionários</a>
+                </li>
+            </ul>
+        </nav>
 
-        <tr>
-            <td><img src="img/mouse.png" alt="foto mouse" /></td>
-            <td> mouse </td>
-            <td>R$ 123,00</td>
-            <td> 13 </td>
-        </tr>
+    </header>
 
-        <tr>
-            <td><img src="img/teclado.webp" alt="foto teclado" /></td>
-            <td> teclado </td>
-            <td>R$ 195,00</td>
-            <td> 4 </td>
-        </tr>
 
-        <tr>
-            <td><img src="img/controle_robot_white_xbox_series_xbox_one_1459_1_efe6ae873dbdd92a51f594b4ef347887.webp" alt="foto controle"/></td>
-            <td> controle </td>
-            <td>R$ 250,00</td>
-            <td> 67 </td>
-        </tr>
 
-        <tr>
-            <td><img src="img/fone.avif" alt="foto fone" ></td>
-            <td>Fone</td>
-            <td>R$ 120,00</td>
-            <td>8</td>
-        </tr>
-        
-        <!-- Crie mais uma linha desta tabela abaixo \/ -->
+    <main role="main">
 
-    </table>
+        <h1>Produtos</h1>
+        <table role="table">
+            <tr>
+                <th>Foto</th>
+                <th>Descrição</th>
+                <th>Preço (R$)</th>
+                <th>Quantidade disponível</th>
+            </tr>
 
-</main>
+            <tr>
+                <td><img src="img/fifa.png" alt="foto fifa" /></td>
+                <td> Jogo </td>
+                <td>R$ 350,00</td>
+                <td> 10 </td>
+            </tr>
 
-<footer>
-    <p>Siga-nos nas redes sociais!</p>
+            <tr>
+                <td><img src="img/mouse.png" alt="foto mouse" /></td>
+                <td> mouse </td>
+                <td>R$ 123,00</td>
+                <td> 13 </td>
+            </tr>
 
-    <div class="icones">
-        <img src="https://cdn-icons-png.flaticon.com/512/174/174879.png" />
-        <img src="https://www.facebook.com/images/fb_icon_325x325.png" />
-        <img
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/800px-Instagram-Icon.png" />
-    </div>
-</footer>
+            <tr>
+                <td><img src="img/teclado.webp" alt="foto teclado" /></td>
+                <td> teclado </td>
+                <td>R$ 195,00</td>
+                <td> 4 </td>
+            </tr>
+
+            <tr>
+                <td><img src="img/controle_robot_white_xbox_series_xbox_one_1459_1_efe6ae873dbdd92a51f594b4ef347887.webp"
+                        alt="foto controle" /></td>
+                <td> controle </td>
+                <td>R$ 250,00</td>
+                <td> 67 </td>
+            </tr>
+
+            <tr>
+                <td><img src="img/fone.avif" alt="foto fone"></td>
+                <td>Fone</td>
+                <td>R$ 120,00</td>
+                <td>8</td>
+            </tr>
+
+            <!-- Crie mais uma linha desta tabela abaixo \/ -->
+
+        </table>
+
+    </main>
+
+    <footer role="contentinfo">
+        <p>Siga-nos nas redes sociais!</p>
+
+        <div class="icones">
+            <img src="img/whatsapp.png" alt="whats" />
+            <img src="img/facebook.png" alt="face" />
+            <img src="img/instagram.png" alt="insta" />
+        </div>
+    </footer>
 </body>
+
 </html>
